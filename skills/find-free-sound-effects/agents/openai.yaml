@@ -1,0 +1,4 @@
+interface:
+  display_name: "Find Free Sound Effects"
+  short_description: "Search and preview free sound effects"
+  default_prompt: "Use $find-free-sound-effects to find a free sound effect for my project."

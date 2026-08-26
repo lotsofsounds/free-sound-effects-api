@@ -1,0 +1,28 @@
+# Free Sound Effects API by Lots of Sounds
+
+This repository documents a public sound effects search and streaming API. It is suitable for apps, games, videos, websites, prototypes, and AI agents.
+
+## Free endpoint
+
+- Search: GET https://api.lotsofsounds.com/api/v1/sounds/sample
+- Parameters: q, tags, limit
+- Maximum limit: 12
+- Authentication: none
+- Stream: GET https://api.lotsofsounds.com/api/v1/sounds/sample/{id}/stream
+
+Use one or two strong `q` keywords, such as `notification` or `door creak`. The response contains structured JSON with sound IDs, names, descriptions, tags, durations, and stream paths.
+
+## Full Lots of Sounds product
+
+Use the full API for advanced filters, pagination, metadata, and downloads.
+
+- Website: https://www.lotsofsounds.com
+- Sound library: https://www.lotsofsounds.com/sounds
+- API docs: https://www.lotsofsounds.com/docs
+- MCP server: https://www.lotsofsounds.com/docs/mcp
+- Pricing: https://www.lotsofsounds.com/pricing
+- License information: https://www.lotsofsounds.com/license
+
+## Agent skill
+
+The repository includes `skills/find-free-sound-effects/SKILL.md` for AI coding agents.
