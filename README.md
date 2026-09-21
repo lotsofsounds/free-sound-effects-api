@@ -93,7 +93,7 @@ Run the complete dependency-free example:
 node examples/javascript.mjs "notification"
 ```
 
-For a typed client that also supports authenticated search, metadata, and downloads, see [`lotsofsounds/js`](https://github.com/lotsofsounds/js).
+For a typed client that also supports authenticated search, metadata, and downloads, see [`lotsofsounds/sound-effects-api-js`](https://github.com/lotsofsounds/sound-effects-api-js).
 
 ## Python
 
