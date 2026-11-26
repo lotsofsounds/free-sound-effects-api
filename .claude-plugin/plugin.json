@@ -1,0 +1,27 @@
+{
+  "name": "lotsofsounds",
+  "version": "0.1.0",
+  "description": "Search and preview CC0 sound effects via the Lots of Sounds free API, agent skill, and hosted MCP server.",
+  "author": {
+    "name": "Lots of Sounds",
+    "email": "team@lotsofsounds.com",
+    "url": "https://www.lotsofsounds.com"
+  },
+  "homepage": "https://www.lotsofsounds.com/sound-effects-api",
+  "documentationUrl": "https://www.lotsofsounds.com/docs/mcp",
+  "supportUrl": "https://www.lotsofsounds.com/contact",
+  "privacyPolicyUrl": "https://www.lotsofsounds.com/privacy",
+  "termsOfServiceUrl": "https://www.lotsofsounds.com/terms",
+  "license": "MIT",
+  "keywords": [
+    "sound-effects",
+    "sfx",
+    "audio",
+    "cc0",
+    "royalty-free",
+    "mcp"
+  ],
+  "icon": "./assets/icon.png",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
