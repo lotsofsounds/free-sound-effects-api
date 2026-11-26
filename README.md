@@ -148,6 +148,20 @@ claude mcp add lotsofsounds --transport http https://api.lotsofsounds.com/mcp \
 
 Cursor, ChatGPT, Claude Desktop, Windsurf, and other Streamable HTTP clients can connect to the same endpoint. See the [MCP setup guide](https://www.lotsofsounds.com/docs/mcp) for client-specific configuration.
 
+### Claude Code plugin & Codex
+
+Add this repository as a Claude Code plugin marketplace:
+
+```bash
+/plugin marketplace add lotsofsounds/free-sound-effects-api
+/plugin install lotsofsounds@free-sound-effects-api
+```
+
+This repository also ships `.mcp.json`, `.claude-plugin/plugin.json`, `.codex-plugin/plugin.json`, and `.agents/plugins/marketplace.json` so Claude Code, OpenAI Codex, and Cursor can discover the `find-free-sound-effects` skill and hosted MCP server (`https://api.lotsofsounds.com/mcp`). Add an `x-api-key` header for full-catalog search and downloads.
+
+[![Lots of Sounds MCP connector](https://glama.ai/mcp/connectors/com.lotsofsounds/mcp/badges/score.svg)](https://glama.ai/mcp/connectors/com.lotsofsounds/mcp)
+
+
 ## Full API
 
 The public samples are intentionally small and curated. The authenticated API adds:

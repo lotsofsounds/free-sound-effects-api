@@ -1,0 +1,47 @@
+{
+  "name": "lotsofsounds",
+  "version": "0.1.0",
+  "description": "Search and preview CC0 sound effects via the Lots of Sounds free API, agent skill, and hosted MCP server.",
+  "author": {
+    "name": "Lots of Sounds",
+    "email": "team@lotsofsounds.com",
+    "url": "https://www.lotsofsounds.com"
+  },
+  "homepage": "https://www.lotsofsounds.com/sound-effects-api",
+  "repository": "https://github.com/lotsofsounds/free-sound-effects-api",
+  "license": "MIT",
+  "keywords": [
+    "sound-effects",
+    "sfx",
+    "audio",
+    "cc0",
+    "royalty-free",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Lots of Sounds",
+    "shortDescription": "Free CC0 sound effects API & MCP",
+    "longDescription": "Search and preview CC0 sound effects via the Lots of Sounds public sample API, agent skill, and hosted MCP server (https://api.lotsofsounds.com/mcp). Browse free samples without an account; add a Pro API key for full-catalog search and downloads.",
+    "developerName": "Elliott Labs Ltd",
+    "category": "Creativity",
+    "websiteURL": "https://www.lotsofsounds.com",
+    "supportURL": "https://www.lotsofsounds.com/contact",
+    "privacyPolicyURL": "https://www.lotsofsounds.com/privacy",
+    "termsOfServiceURL": "https://www.lotsofsounds.com/terms",
+    "capabilities": [
+      "Browse curated free CC0 sound effect samples",
+      "Search the full catalog by keyword, tags, category, and duration (Pro API key)",
+      "Inspect sound metadata and generate signed download links (Pro API key)"
+    ],
+    "defaultPrompt": [
+      "Find a short, calm notification sound for an AI assistant.",
+      "Search for five door knock sound effects.",
+      "Preview a gentle UI click sound."
+    ],
+    "brandColor": "#1A1A1A",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "free-sound-effects-api",
+  "owner": {
+    "name": "Lots of Sounds",
+    "email": "team@lotsofsounds.com"
+  },
+  "metadata": {
+    "description": "Free sound effects API, agent skill, and hosted MCP server from Lots of Sounds.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "lotsofsounds",
+      "source": "./",
+      "description": "Search and preview CC0 sound effects via the Lots of Sounds free API, agent skill, and hosted MCP server.",
+      "category": "media",
+      "homepage": "https://www.lotsofsounds.com/sound-effects-api"
+    }
+  ]
+}

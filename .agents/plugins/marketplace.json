@@ -1,0 +1,20 @@
+{
+  "name": "free-sound-effects-api",
+  "interface": {
+    "displayName": "Lots of Sounds Free Sound Effects API"
+  },
+  "plugins": [
+    {
+      "name": "lotsofsounds",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
